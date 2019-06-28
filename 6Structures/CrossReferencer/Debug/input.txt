@@ -1,0 +1,7 @@
+To find out whether a new word is already in the tree, start at the root and compare the new
+word to the word stored at that node. If they match, the question is answered affirmatively. If
+the new record is less than the tree word, continue searching at the left child, otherwise at the
+right child. If there is no child in the required direction, the new word is not in the tree, and in
+fact the empty slot is the proper place to add the new word. This process is recursive, since
+the search from any node uses a search from one of its children. Accordingly, recursive
+routines for insertion and printing will be most natural.

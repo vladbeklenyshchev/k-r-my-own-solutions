@@ -1,0 +1,5 @@
+Spaces per tab: Input: abc	xy	z
+
+***spases: 5****
+***spases: 6****
+Otput: abc     xy      z
